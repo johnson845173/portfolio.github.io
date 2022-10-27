@@ -1950,8 +1950,18 @@ body.resume-opened .deebo_fn__cv .cv__bg2{
 	.fn__nav .prev{padding-left: 66px;}
 	.fn__nav .prev .arrow_wrapper{left: 20px;}
 }
-
+@media(min-width: 600px){
+	.deebo_fn_modalbox .box_inner{max-width: 60%;}
+	.deebo_fn_modalbox .modal_in{padding-left: 20px;padding-right: 20px;}
+	.fn__nav .next{padding-right: 66px;}
+	.fn__nav .next .arrow_wrapper{right: 20px;}
+	.fn__nav .prev{padding-left: 66px;}
+	.fn__nav .prev .arrow_wrapper{left: 20px;}
+}
 @media(max-width: 370px){
+	.fn__nav .text{display: none;}
+}
+@media(min-width: 200px){
 	.fn__nav .text{display: none;}
 }
 /*------------------------------------------------------------------*/
